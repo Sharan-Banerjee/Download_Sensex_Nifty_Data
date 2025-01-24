@@ -4,7 +4,13 @@ GitHub Repo to create dummy code to bulk download all updated Sensex and Nifty d
 
 The .ipynb file contains the code to download the data along with the links to get CSV files of tickers listed in the indices historically to get daily data on these tickers. In this code I only keep the Closing Prices for each day in the final merged sample for each index. 
 
-The desired folder structure I follow is: 
+The desired folder structure I follow while setting up the code is: 
 
-    Project
+    Project Name
+        |
+        |- Code
+        |- Data
+            |- Ticker List
+            |- SENSEX Tickers
+            |- NIFTY Tickers
       
